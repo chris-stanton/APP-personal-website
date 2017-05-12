@@ -1,4 +1,4 @@
-myApp.controller('ContactController',[function() {
+myApp.controller('ContactController', [function() {
 
   console.log('ContactController running');
   var self = this;
