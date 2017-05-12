@@ -19,6 +19,11 @@ myApp.config(['$routeProvider', function($routeProvider) {
             controller: 'ContactController',
             controllerAs: 'cc'
         })
+        .when ('/email', {
+          templateUrl: '/views/email.html',
+          controller: 'EmailController',
+          controllerAs: 'ec'
+        })
         .otherwise ( {
             redirectTo: '/home'
         });
