@@ -14,10 +14,10 @@ myApp.config(['$routeProvider', function($routeProvider) {
             controller: 'OneController',
             controllerAs: 'one'
         })
-        .when ('/view-2', {
-            templateUrl: '/views/view_2.html',
-            controller: 'TwoController',
-            controllerAs: 'two'
+        .when ('/contact', {
+            templateUrl: '/views/contact.html',
+            controller: 'ContactController',
+            controllerAs: 'cc'
         })
         .otherwise ( {
             redirectTo: '/home'
