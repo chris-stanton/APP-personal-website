@@ -1,3 +1,29 @@
+## Technologies Used
+  1. Express.js - version ``` v4.15.2 ```
+  2. Angular.js - version ``` v1.6.3 ```
+  3. Angular Route - version ``` v1.6.3 ```
+  4. Node.js
+  5. Body-Parser - version ``` v1.17.1 ```
+  6. PG - version ``` v6.1.4 ```
+  7. GIT / GitHub
+  8. Bootstrap - version ``` v3.3.7 ```
+
+
+
+## Install App
+  1. Download zip file
+  2. Open terminal and navigate into folder
+  3. Run commands:
+    - ``` npm install ``` Installs Node Packages including dependencies from package.json
+    - ``` brew services start postgresql ``` Starts DB server connection to Postico (or equivalent for MongoDB)
+    - ``` npm start ``` Starts server
+    - ``` npm test ``` Starts server using Nodemon
+  4. Configure / Create DB
+    - Download and install SQL DB client to aide in creating the DB
+    - Cut and paste code from database.sql file into 3rd party software from the step pervious
+  5. Server is listening on port: 5000
+
+---
 
 ## License
 ##### Copyright 2017 Chris Stanton

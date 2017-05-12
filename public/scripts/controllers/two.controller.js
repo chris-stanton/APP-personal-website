@@ -1,4 +1,4 @@
-myApp.controller('TwoController',['FactoryFactory',function(FactoryFactory) {
+myApp.controller('TwoController',[function() {
 
   console.log('TwoController running');
   var self = this;

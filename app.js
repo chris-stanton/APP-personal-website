@@ -4,6 +4,7 @@ var app = express();
 var path = require('path');
 var bodyParser = require('body-parser');
 
+// app.use('/inboundURLbase',router)
 
 //Serve back static files
 app.use(express.static(path.join(__dirname, './public')));
