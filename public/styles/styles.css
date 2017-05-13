@@ -3,26 +3,35 @@
 //        HEADER        //
 ////////////////////////*/
 
-#faceImage {
-  height: 20%;
-  width: 20%;
-  border-radius: 40px;
+header {
+  height: 330px;
+  background-image: url('/assets/images/minneapolis.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#nameHeading {
+  text-align: center;
+  font-size: 45px;
+  margin-top: 75px;
 }
 
 .icons {
-  height: 30%;
-  width: 30%;
-  margin: 8px 20px 8px 0px;
+  height: 10%;
+  width: 10%;
+  margin: 18px 10px 0px 0px;
+  text-align: right;
 }
 
-.mailIcons {
-  height: 40%;
-  width: 40%;
+.icons:hover {
+  height: 13%;
+  width: 13%;
+  margin: 0px 15px 0px 0px;
 }
 
 #links {
   text-align: right;
-
+  /*width: 40%;*/
 }
 
 
@@ -38,7 +47,6 @@ nav {
 
 span {
   margin: 0px 30px 0px 30px;
-
 }
 
 
@@ -47,7 +55,11 @@ span {
 //        HOME          //
 ////////////////////////*/
 
-
+#faceImage {
+  height: 20%;
+  width: 20%;
+  border-radius: 40px;
+}
 
 
 
