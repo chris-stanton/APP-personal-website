@@ -98,3 +98,23 @@ nav {
 /*////////////////////////
 //       CONTACT        //
 ////////////////////////*/
+
+#emailInputContainer {
+ border: 5px solid black;
+ border-radius: 5px;
+ margin-left: 15px;
+ padding: 20px;
+}
+
+#emailHeading {
+margin-left: 80px;
+}
+
+#emailInput {
+  width: 266px;
+}
+
+#sendButton {
+  text-align: right;
+  margin-top: 12px;
+}
