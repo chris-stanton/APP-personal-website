@@ -57,6 +57,7 @@ nav {
 
 .navButtonColor {
   color: #330ee7;
+  outline: none;
 }
 
 .navButtons {
@@ -70,14 +71,19 @@ nav {
   font-family: fantasy;
   font-size: 20px;
   color: #330ee7;
-  outline-color: none;
+  outline: none;
 }
+
 
 
 
 /*////////////////////////
 //        HOME          //
 ////////////////////////*/
+
+#homeContainer {
+  text-align: center;
+}
 
 #faceImage {
   height: 20%;
@@ -88,9 +94,14 @@ nav {
 
 
 
+
 /*////////////////////////
 //      DEVELOPMENT     //
 ////////////////////////*/
+
+#developeContainer {
+  text-align: center;
+}
 
 
 
@@ -100,9 +111,17 @@ nav {
 //       CONTACT        //
 ////////////////////////*/
 
-#emailContainer {
-
+#contactContainer {
+  text-align: center;
 }
+
+
+
+
+
+/*////////////////////////
+//        EMAIL         //
+////////////////////////*/
 
 #emailInputContainer {
   border: 5px solid black;
