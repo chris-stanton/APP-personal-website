@@ -33,11 +33,13 @@ app.post('/sendEmail', function(req,res){
   console.log("Email ", email);
 
   var mailOptions = {
-      from: 'development.testing84@yahoo.com',
-      to: 'cstanton0760@yahoo.com',
+      from: process.env.ACCOUNT_NAME,
+      to: process.env.ACCOUNT_RECIEVER_EMAIL,
       subject: email.subject,
       text: email.message,
-      html: '<b>' + email.message + '</b>'
+      html: '<b>' + 'User Email: ' + email.userEmail + '<br/>' +
+            'Subject: ' + email.subject + '<br/>' +
+            'Message: ' + email.message + '</b>'
   };
 
   transporter.sendMail(mailOptions, function(error, info){
