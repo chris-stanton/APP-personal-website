@@ -3,6 +3,8 @@ myApp.controller('EmailController', ['$location', '$http', function($location, $
   console.log('EmailController running');
 
   var self = this;
+  //must have variable for notyf
+  var notyf = new Notyf();
 
 // redirect to contact view
   function contactView() {
@@ -19,7 +21,7 @@ myApp.controller('EmailController', ['$location', '$http', function($location, $
       data: email
     }).then(function(response){
       console.log("email sent");
-      // notyf.confirm('Email has been sent to Chris stanton. Thank You!!')
+      notyf.confirm('Email has been sent to Chris stanton. Thank You!!')
       self.email = {};
     }).catch(function(error) {
       // swal("Sorry, we couldn't process your requests", "Try Again!", "error");
