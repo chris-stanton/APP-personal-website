@@ -1,4 +1,34 @@
 
-<h2> Email </h2>
+  <div class="rows">
 
-{{ec.message}}
+    <div id="emailDescription" class="col-md-8">
+      <h2> Description </h2>
+        <p> Description and rules will go here to tell the user how and to submit an email.
+            There will be rules and guidelines for the user to follow also. </p>
+    </div>
+
+    <div class="col-md-4">
+      <h2 id="emailHeading"> Email Chris </h2>
+        <div id="emailInputContainer">
+          <div>
+            <label> Email:
+              <input ng-model="ec.email.userEmail" type="text" class="form-control">
+            </label>
+          </div>
+          <div>
+            <label> Title:
+              <textarea ng-model="ec.email.subject" class="form-control" rows="3" cols="50" type="text"></textarea>
+            </label>
+          </div>
+          <div>
+            <label> Message:
+              <textarea ng-model="ec.email.message" class="form-control" rows="8" cols="50" type="text"></textarea>
+            </label>
+          </div>
+          <div>
+            <button ng-click="ec.sendEmail(ec.email)" id="sendButton" class="btn-primary" type="button"> Send Email </button>
+          </div>
+        </div>
+    </div>
+
+  </div>
