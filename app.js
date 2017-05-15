@@ -33,9 +33,9 @@ app.post('/sendEmail', function(req,res){
   console.log("Email ", email);
 
   var mailOptions = {
-      from: process.env.ACCOUNT_NAME,
+      from: 'Personal Website ' + process.env.ACCOUNT_NAME,
       to: process.env.ACCOUNT_RECIEVER_EMAIL,
-      subject: email.subject,
+      subject: 'Email From Personal Website',
       text: email.message,
       html: '<b>' + 'User Email: ' + email.userEmail + '<br/>' +
             'Subject: ' + email.subject + '<br/>' +
