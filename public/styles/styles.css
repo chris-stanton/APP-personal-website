@@ -46,7 +46,7 @@ header {
 
 nav {
   background-color: #a6a5a5;
-  height: 35px;
+  height: 38px;
   outline: 2px solid;
 }
 
@@ -61,13 +61,14 @@ nav {
 
 .navButtons {
   margin-top: 8px;
-  font-size: 18px;
+  padding-top: 2px;
+  font-size: 17px;
   font-family: fantasy;
 }
 
 .navButtons:hover {
   font-family: fantasy;
-  font-size: 21px;
+  font-size: 20px;
   color: #330ee7;
   outline-color: none;
 }
