@@ -10,6 +10,7 @@
     "bootstrap": "^3.3.7",
     "express": "^4.15.2",
     "dotenv-node": "0.0.2",
+    "nodemailer": "^4.0.1",
     "pg": "^6.1.4"
   },
   "devDependencies": {},
