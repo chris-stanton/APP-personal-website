@@ -134,7 +134,8 @@ nav {
   padding: 20px;
 }
 
-#emailHeading {
+.emailHeading {
+  margin: 30px 0px 20px 0px;
   text-align: center;
   font-family: fantasy;
 }
@@ -147,5 +148,5 @@ nav {
 
 #emailDescription {
   text-align: center;
-  font-family: fantasy;
+  margin: 5px 60px 0px 60px;
 }
