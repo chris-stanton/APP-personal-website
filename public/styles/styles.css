@@ -114,8 +114,9 @@ nav {
 }
 
 #devIconGit {
-  height: 11%;
-  width: 30%;
+  height: 12%;
+  width: 33%;
+  margin: 0px -50px 0px -50px;
 }
 
 #devIconHeroku {
@@ -137,6 +138,7 @@ nav {
 #devIconMongodb {
   height: 15%;
   width: 35%;
+  margin: 0px -45px 0px -45px;
 }
 
 #devIconNode {
