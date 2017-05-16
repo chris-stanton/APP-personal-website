@@ -94,13 +94,13 @@ nav {
 
 
 
-
 /*////////////////////////
 //      DEVELOPMENT     //
 ////////////////////////*/
 
-#developeContainer {
+#devIconTable {
   text-align: center;
+  margin-top: 20px;
 }
 
 .devIcons {
