@@ -103,11 +103,56 @@ nav {
   margin-top: 20px;
 }
 
-.devIcons {
+#devIconAngular {
   height: 20%;
   width: 40%;
 }
 
+#devIconFirebase {
+  height: 15%;
+  width: 35%;
+}
+
+#devIconGit {
+  height: 11%;
+  width: 30%;
+}
+
+#devIconHeroku {
+  height: 20%;
+  width: 40%;
+}
+
+#devIconHtml {
+  height: 27%;
+  width: 47%;
+  margin: 0px 10px 0px 10px;
+}
+
+#devIconJquery{
+  height: 15%;
+  width: 35%;
+}
+
+#devIconMongodb {
+  height: 15%;
+  width: 35%;
+}
+
+#devIconNode {
+  height: 30%;
+  width: 55%;
+}
+
+#devIconNpm {
+  height: 40%;
+  width: 60%;
+}
+
+#devIconSql {
+  height: 18%;
+  width: 38%;
+}
 
 
 
