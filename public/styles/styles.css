@@ -42,6 +42,7 @@ header {
 
 #navContainer {
   margin-top: -30px;
+  text-align: center;
 }
 
 nav {
@@ -94,13 +95,33 @@ nav {
 
 .homeHeaders {
   text-align: center;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
 }
 
 .bioParagraph {
   /*text-align: center;*/
 }
+
+
+
+/*////////////////////////
+//          BIO         //
+////////////////////////*/
+
+.bioHeaders {
+  text-align: center;
+}
+
+
+
+
+/*////////////////////////
+//         RESUME       //
+////////////////////////*/
+
+.resumeHeaders {
+  text-align: center;
+}
+
 
 
 
