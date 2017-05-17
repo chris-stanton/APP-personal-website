@@ -118,13 +118,19 @@ nav {
 //         RESUME       //
 ////////////////////////*/
 
-
 #resumeContainer {
-  margin-left: 30px;
+  border: 5px solid black;
+  border-radius: 10px;
+  margin: 30px 15px 0px 30px;
+  padding: 20px;
 }
 
 #resumeWritingContainer {
 
+}
+
+#objectiveP {
+  text-align: center;
 }
 
 #resumeEmploymentContainer {
@@ -132,7 +138,12 @@ nav {
 }
 
 #resumeEducationContainer {
+  text-align: center;
+}
 
+.resumeHeadings {
+  text-align: center;
+  margin-top: 30px;
 }
 
 
