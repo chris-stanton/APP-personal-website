@@ -131,7 +131,9 @@ nav {
 
 #devIconTable {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 40px;
+  height: 75px;
+  /*background-color: gray;*/
 }
 
 #devIconAngular {
@@ -191,13 +193,13 @@ nav {
 }
 
 #devIconJquery {
-  height: 15%;
-  width: 35%;
+  height: 18%;
+  width: 38%;
 }
 
 #devIconJquery:hover {
-  height: 18%;
-  width: 38%;
+  height: 21%;
+  width: 41%;
 }
 
 #devIconMongodb {
@@ -251,9 +253,78 @@ nav {
 ////////////////////////*/
 
 #contactContainer {
+  margin-top: 20px;
   text-align: center;
 }
 
+#contactInfo {
+  text-align: center;
+}
+
+.contactHeadings {
+  font-family: fantasy;
+}
+
+#infoCard {
+  border: 5px solid black;
+  border-radius: 10px;
+  margin-right: 15px;
+  padding: 20px;
+  height: 200px;
+}
+
+#contactLinks {
+  text-align: left;
+}
+
+#iconCard {
+  border: 5px solid black;
+  border-radius: 10px;
+  margin-right: 15px;
+  padding: 20px;
+  height: 200px;
+}
+
+.contactIcons {
+  text-align: center;
+  height: 10%;
+  width: 10%;
+  margin: 10px 0px 10px 0px;
+}
+
+.contactIcons:hover {
+  text-align: center;
+  height: 12%;
+  width: 12%;
+  /*margin: 7px 20px 10px 0px;*/
+}
+
+#emailRedirectContainer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#emailCard {
+  border: 5px solid black;
+  border-radius: 10px;
+  margin-right: 15px;
+  padding: 20px;
+  height: 220px;
+}
+
+#contactEmailIcon {
+  text-align: center;
+  height: 8%;
+  width: 8%;
+  margin: 10px 0px 10px 0px;
+}
+
+#contactEmailIcon:hover {
+  text-align: center;
+  height: 10%;
+  width: 10%;
+  margin: 10px 0px 10px 0px;
+}
 
 
 
