@@ -131,7 +131,7 @@ nav {
 
 #devIconTable {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 #devIconAngular {
@@ -139,9 +139,20 @@ nav {
   width: 40%;
 }
 
+#devIconAngular:hover {
+  height: 23%;
+  width: 43%;
+}
+
 #devIconFirebase {
   height: 15%;
   width: 35%;
+  margin: 0px -20px 0px -20px;
+}
+
+#devIconFirebase:hover {
+  height: 18%;
+  width: 38%;
   margin: 0px -20px 0px -20px;
 }
 
@@ -151,9 +162,20 @@ nav {
   margin: 0px -50px 0px -50px;
 }
 
+#devIconGit:hover {
+  height: 15%;
+  width: 35%;
+  margin: 0px -50px 0px -50px;
+}
+
 #devIconHeroku {
   height: 20%;
   width: 40%;
+}
+
+#devIconHeroku:hover {
+  height: 23%;
+  width: 43%;
 }
 
 #devIconHtml {
@@ -162,9 +184,20 @@ nav {
   margin: 0px 10px 0px 10px;
 }
 
-#devIconJquery{
+#devIconHtml:hover {
+  height: 30%;
+  width: 50%;
+  margin: 0px 10px 0px 10px;
+}
+
+#devIconJquery {
   height: 15%;
   width: 35%;
+}
+
+#devIconJquery:hover {
+  height: 18%;
+  width: 38%;
 }
 
 #devIconMongodb {
@@ -173,9 +206,20 @@ nav {
   margin: 0px -45px 0px -45px;
 }
 
+#devIconMongodb:hover {
+  height: 18%;
+  width: 38%;
+  margin: 0px -45px 0px -45px;
+}
+
 #devIconNode {
   height: 30%;
   width: 55%;
+}
+
+#devIconNode:hover {
+  height: 33%;
+  width: 58%;
 }
 
 #devIconNpm {
@@ -183,11 +227,20 @@ nav {
   width: 60%;
 }
 
+#devIconNpm:hover {
+  height: 43%;
+  width: 63%;
+}
+
 #devIconSql {
   height: 18%;
   width: 38%;
 }
 
+#devIconSql:hover {
+  height: 21%;
+  width: 41%;
+}
 
 
 
