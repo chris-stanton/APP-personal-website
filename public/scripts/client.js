@@ -24,6 +24,12 @@ myApp.config(['$routeProvider', function($routeProvider) {
           controller: 'EmailController',
           controllerAs: 'ec'
         })
+        .when ('/bio', {
+          templateUrl: '/views/bio.html'
+        })
+        .when ('/resume', {
+          templateUrl: '/views/resume.html'
+        })
         .otherwise ( {
             redirectTo: '/home'
         });
