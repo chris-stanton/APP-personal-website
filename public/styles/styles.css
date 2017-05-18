@@ -154,6 +154,17 @@ nav {
 //      DEVELOPMENT     //
 ////////////////////////*/
 
+#divHeading {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.heading {
+  text-align: center;
+  /*font-family: fantasy;*/
+  font-size: 20px;
+}
+
 #devIconTable {
   text-align: center;
   margin-top: 40px;
@@ -267,6 +278,11 @@ nav {
 #devIconSql:hover {
   height: 21%;
   width: 41%;
+}
+
+#linkTableContainer {
+  text-align: center;
+  margin-top: 30px;
 }
 
 
