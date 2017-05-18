@@ -1,3 +1,4 @@
+
 ## Technologies Used
   1. Express.js - version ``` v4.15.2 ```
   2. Angular.js - version ``` v1.6.3 ```
@@ -22,6 +23,10 @@
     - Download and install SQL DB client to aide in creating the DB
     - Cut and paste code from database.sql file into 3rd party software from the step pervious
   5. Server is listening on port: 5000
+
+---
+
+###### App can be viewed at: https://chris-stanton.herokuapp.com/
 
 ---
 
