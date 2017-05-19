@@ -5,7 +5,7 @@
 
 header {
   height: 250px;
-  background-image: url('/assets/images/minneapolis.png');
+  background-image: url('/assets/images/header.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -41,15 +41,16 @@ header {
 //        NAV           //
 ////////////////////////*/
 
+nav {
+  /*background-color: #a6a5a5;*/
+  height: 38px;
+  outline: 2px solid;
+  background-image: url('/assets/images/nav.png');
+}
+
 #navContainer {
   margin-top: -30px;
   text-align: center;
-}
-
-nav {
-  background-color: #a6a5a5;
-  height: 38px;
-  outline: 2px solid;
 }
 
 .nav {
@@ -58,7 +59,8 @@ nav {
 }
 
 .navButtonColor {
-  color: #330ee7;
+  /*color: #330ee7;*/
+  color: white;
   outline: none;
 }
 
@@ -72,7 +74,7 @@ nav {
 .navButtons:hover {
   font-family: fantasy;
   font-size: 20px;
-  color: #330ee7;
+  color: white;
   outline: none;
 }
 
@@ -130,16 +132,16 @@ nav {
 //         RESUME       //
 ////////////////////////*/
 
-#resumeHeader {
-  text-align: center;
-  /*margin-top: 20px;*/
-}
-
 #resumeContainer {
   /*border: 2px solid black;*/
   /*border-radius: 10px;*/
   margin: 30px 15px 0px 30px;
   padding: 20px;
+}
+
+#resumeHeader {
+  text-align: center;
+  /*margin-top: 20px;*/
 }
 
 .resumeQual {
