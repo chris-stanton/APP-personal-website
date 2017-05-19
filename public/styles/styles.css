@@ -17,6 +17,10 @@ header {
   margin-top: 40px;
 }
 
+.headingEmail {
+  text-align: center;
+}
+
 .icons {
   height: 8%;
   width: 8%;
@@ -456,6 +460,12 @@ nav {
   margin: 30px 0px 20px 0px;
   text-align: center;
   /*font-family: fantasy;*/
+}
+
+.emailImage {
+  /*margin: 30px 0px 0px 400px;*/
+  height: 25%;
+  width: 25%;
 }
 
 #sendButton {
