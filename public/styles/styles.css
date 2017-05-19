@@ -128,7 +128,7 @@ nav {
 
 #resumeHeader {
   text-align: center;
-  margin-top: 30px;
+  /*margin-top: 20px;*/
 }
 
 #resumeContainer {
@@ -155,7 +155,7 @@ nav {
   /*border-radius: 10px;*/
   padding: 20px;
   display: inline-block;
-  height: 675px;
+  /*height: 675px;*/
   margin: 0px 13px 0px 13px;
 }
 
