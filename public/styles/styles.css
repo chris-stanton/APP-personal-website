@@ -95,6 +95,7 @@ nav {
 
 .homeHeaders {
   text-align: center;
+  margin-top: 30px;
 }
 
 .bioParagraph {
@@ -109,8 +110,15 @@ nav {
 
 .bioHeaders {
   text-align: center;
+  margin-top: 30px;
 }
 
+#descriptionContainer {
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
 
 
 
@@ -120,6 +128,7 @@ nav {
 
 #resumeHeader {
   text-align: center;
+  margin-top: 30px;
 }
 
 #resumeContainer {
