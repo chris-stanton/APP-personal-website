@@ -36,6 +36,7 @@ header {
 
 
 
+
 /*////////////////////////
 //        NAV           //
 ////////////////////////*/
@@ -104,6 +105,9 @@ nav {
 
 
 
+
+
+
 /*////////////////////////
 //          BIO         //
 ////////////////////////*/
@@ -128,7 +132,7 @@ nav {
 
 #resumeHeader {
   text-align: center;
-  margin-top: 30px;
+  /*margin-top: 20px;*/
 }
 
 #resumeContainer {
@@ -155,7 +159,7 @@ nav {
   /*border-radius: 10px;*/
   padding: 20px;
   display: inline-block;
-  height: 675px;
+  /*height: 675px;*/
   margin: 0px 13px 0px 13px;
 }
 
@@ -169,7 +173,14 @@ nav {
   border-bottom: 2px solid black;
 }
 
+.qualificationsDiv {
+  margin: 10px 0px 10px 0px;
+}
 
+.resumeIcons {
+  height: 30px;
+  width: 30px;
+}
 
 
 
@@ -301,6 +312,17 @@ nav {
 #devIconSql:hover {
   height: 21%;
   width: 41%;
+}
+
+#devIconExpress {
+  height: 21%;
+  width: 46%;
+  margin-left: -25px;
+}
+
+#devIconExpress:hover {
+  height: 23%;
+  width: 48%;
 }
 
 #linkTableContainer {
