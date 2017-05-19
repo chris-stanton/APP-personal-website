@@ -36,6 +36,7 @@ header {
 
 
 
+
 /*////////////////////////
 //        NAV           //
 ////////////////////////*/
@@ -101,6 +102,17 @@ nav {
 .bioParagraph {
   /*text-align: center;*/
 }
+
+.qualificationsDiv {
+  margin: 10px 0px 10px 0px;
+}
+
+.resumeIcons {
+  height: 30px;
+  width: 30px;
+}
+
+
 
 
 
