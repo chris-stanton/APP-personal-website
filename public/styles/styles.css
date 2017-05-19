@@ -118,6 +118,10 @@ nav {
 //         RESUME       //
 ////////////////////////*/
 
+#resumeHeader {
+  text-align: center;
+}
+
 #resumeContainer {
   border: 5px solid black;
   border-radius: 10px;
@@ -162,7 +166,7 @@ nav {
 .heading {
   text-align: center;
   /*font-family: fantasy;*/
-  font-size: 20px;
+  font-size: 25px;
 }
 
 #devIconTable {
@@ -284,15 +288,31 @@ nav {
   text-align: center;
   margin-top: 30px;
   display: inline-block;
+  box-shadow: 2px 2px 2px black;
+}
+
+.imageTitle {
+  font-size: 18px;
+  margin-top: 40px;
 }
 
 .appImages {
   width: 500px;
   height: 150px;
   display: inline-block;
-  margin: 30px 0px 30px 0px;
+  margin: 20px 0px 30px 0px;
   border-radius: 30px;
-  border: 3px solid black;
+  border: 2px solid black;
+}
+
+.appImages:hover {
+  width: 500px;
+  height: 150px;
+  display: inline-block;
+  margin: 20px 0px 30px 0px;
+  border-radius: 30px;
+  border: 3px solid grey;
+  box-shadow: 3px 3px 3px grey;
 }
 
 
