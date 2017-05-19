@@ -103,14 +103,6 @@ nav {
   /*text-align: center;*/
 }
 
-.qualificationsDiv {
-  margin: 10px 0px 10px 0px;
-}
-
-.resumeIcons {
-  height: 30px;
-  width: 30px;
-}
 
 
 
@@ -181,7 +173,14 @@ nav {
   border-bottom: 2px solid black;
 }
 
+.qualificationsDiv {
+  margin: 10px 0px 10px 0px;
+}
 
+.resumeIcons {
+  height: 30px;
+  width: 30px;
+}
 
 
 
@@ -313,6 +312,17 @@ nav {
 #devIconSql:hover {
   height: 21%;
   width: 41%;
+}
+
+#devIconExpress {
+  height: 21%;
+  width: 46%;
+  margin-left: -25px;
+}
+
+#devIconExpress:hover {
+  height: 23%;
+  width: 48%;
 }
 
 #linkTableContainer {
