@@ -28,6 +28,13 @@ header {
   text-align: right;
 }
 
+.iconsXl {
+  height: 8%;
+  width: 8%;
+  margin: 5px 10px 12px 0px;
+  text-align: right;
+}
+
 .icons:hover {
   height: 13%;
   width: 13%;
