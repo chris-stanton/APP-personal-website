@@ -123,7 +123,7 @@ nav {
 }
 
 .bioBackground {
-  background-image: url('/assets/images/wood.png');
+  background-image: url('/assets/images/stone.png');
   background-size: 100%;
   background-repeat: no-repeat;
   padding: 150px 0px 150px 0px;
@@ -149,21 +149,18 @@ nav {
 
 
 
+
+
 /*////////////////////////
 //         RESUME       //
 ////////////////////////*/
 
 #resumeContainer {
-  /*border: 2px solid black;*/
-  /*border-radius: 10px;*/
   margin: 30px 15px 0px 30px;
-  padding: 20px;
-  /*background-image: url('/assets/images/wood.jpg');*/
 }
 
 #resumeHeader {
   text-align: center;
-  /*margin-top: 20px;*/
 }
 
 .resumeQual {
@@ -218,9 +215,15 @@ nav {
 
 
 
+
 /*////////////////////////
 //      DEVELOPMENT     //
 ////////////////////////*/
+
+.devHeading {
+  text-align: center;
+  margin-top: 30px;
+}
 
 #divHeading {
   text-align: center;
@@ -398,9 +401,17 @@ nav {
 //       CONTACT        //
 ////////////////////////*/
 
-#contactBackground {
+#contactHeading {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contactBackground {
   background-image: url('/assets/images/stone.png');
   background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  padding: 40px 0px 100px 0px;
 }
 
 #contactContainer {
@@ -410,10 +421,6 @@ nav {
 
 #contactInfo {
   text-align: center;
-}
-
-.contactHeadings {
-  /*font-family: fantasy;*/
 }
 
 #infoCard {
