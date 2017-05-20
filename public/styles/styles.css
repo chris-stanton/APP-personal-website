@@ -17,6 +17,10 @@ header {
   margin-top: 40px;
 }
 
+.headingEmail {
+  text-align: center;
+}
+
 .icons {
   height: 8%;
   width: 8%;
@@ -78,6 +82,10 @@ nav {
   outline: none;
 }
 
+.homePar {
+  margin: 0px 0px 50px 0px;
+}
+
 
 
 
@@ -85,24 +93,35 @@ nav {
 //        HOME          //
 ////////////////////////*/
 
-#faceImage {
-  height: 20%;
-  width: 20%;
-  border-radius: 40px;
-}
-
-#imagePosition {
+#homeHeader {
   text-align: center;
-  margin: 30px 0px 20px 0px;
+  margin: 30px 0px 30px 0px;
 }
 
-.homeHeaders {
-  text-align: center;
-  margin-top: 30px;
+#homeName {
+  font-size: 60px;
 }
 
-.bioParagraph {
-  /*text-align: center;*/
+#homeDeveloper {
+  font-size: 30px;
+  font-family: fantasy;
+}
+
+#homeBackground {
+  background-image: url('/assets/images/stoneBrick.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 10px 0px 10px 0px;
+  padding: 125px 0px 125px 0px;
+}
+
+#homeDescription {
+  font-size: 25px;
+  font-weight: bold;
+  /*border: 5px solid black;*/
+  /*border-radius: 10px;*/
+  padding: 20px;
+  color: black;
 }
 
 
@@ -114,9 +133,22 @@ nav {
 //          BIO         //
 ////////////////////////*/
 
+#bioContainer {
+
+}
+
+.bioBackground {
+  background-image: url('/assets/images/stone.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 150px 0px 150px 0px;
+  text-align: center;
+}
+
 .bioHeaders {
   text-align: center;
-  margin-top: 30px;
+  margin: 30px 0px 60px 0px;
+  font-size: 40px;
 }
 
 #descriptionContainer {
@@ -124,7 +156,14 @@ nav {
   border: 5px solid black;
   border-radius: 10px;
   padding: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #000000;
 }
+
+
+
+
 
 
 
@@ -133,15 +172,12 @@ nav {
 ////////////////////////*/
 
 #resumeContainer {
-  /*border: 2px solid black;*/
-  /*border-radius: 10px;*/
   margin: 30px 15px 0px 30px;
-  padding: 20px;
 }
 
 #resumeHeader {
   text-align: center;
-  /*margin-top: 20px;*/
+  font-size: 40px;
 }
 
 .resumeQual {
@@ -184,11 +220,28 @@ nav {
   width: 30px;
 }
 
+.resumeEducation {
+  display: inline-block;
+  margin: 0px 25px 0px 25px;
+}
+
+
+
+
+
+
+
 
 
 /*////////////////////////
 //      DEVELOPMENT     //
 ////////////////////////*/
+
+.devHeading {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 40px;
+}
 
 #divHeading {
   text-align: center;
@@ -331,7 +384,6 @@ nav {
   text-align: center;
   margin-top: 30px;
   display: inline-block;
-  box-shadow: 2px 2px 2px black;
 }
 
 .imageTitle {
@@ -360,9 +412,26 @@ nav {
 
 
 
+
+
+
 /*////////////////////////
 //       CONTACT        //
 ////////////////////////*/
+
+#contactHeading {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+.contactBackground {
+  background-image: url('/assets/images/stone.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  padding: 40px 0px 100px 0px;
+}
 
 #contactContainer {
   margin-top: 20px;
@@ -371,10 +440,6 @@ nav {
 
 #contactInfo {
   text-align: center;
-}
-
-.contactHeadings {
-  /*font-family: fantasy;*/
 }
 
 #infoCard {
@@ -445,6 +510,18 @@ nav {
 //        EMAIL         //
 ////////////////////////*/
 
+#emailHeading {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+.emailBackground {
+  margin-top: 40px;
+  background-image: url('/assets/images/wood.png');
+  padding: 25px 0px 60px 0px;
+}
+
 #emailInputContainer {
   border: 2px solid black;
   border-radius: 10px;
@@ -458,6 +535,12 @@ nav {
   /*font-family: fantasy;*/
 }
 
+.emailImage {
+  /*margin: 30px 0px 0px 400px;*/
+  height: 25%;
+  width: 25%;
+}
+
 #sendButton {
   border-radius: 8px;
   margin-top: 12px;
@@ -467,8 +550,29 @@ nav {
 #emailDescription {
   text-align: center;
   margin: 5px 60px 0px 60px;
-  font-size: 17px;
+  font-size: 25px;
   border: 2px solid black;
   border-radius: 10px;
   padding: 20px;
+  display: inline-block;
+}
+
+
+
+
+
+/*////////////////////////
+//        FOOTER        //
+////////////////////////*/
+
+#footerContainer {
+  text-align: center;
+  background-color: #363434;
+  color: white;
+  padding: 25px 0px 25px 0px;
+  margin-top: 70px;
+}
+
+#footerHeader {
+  /*margin: 100px;*/
 }
