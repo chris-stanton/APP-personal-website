@@ -82,6 +82,10 @@ nav {
   outline: none;
 }
 
+.homePar {
+  margin: 0px 0px 50px 0px;
+}
+
 
 
 
@@ -144,6 +148,7 @@ nav {
 .bioHeaders {
   text-align: center;
   margin: 30px 0px 60px 0px;
+  font-size: 40px;
 }
 
 #descriptionContainer {
@@ -172,6 +177,7 @@ nav {
 
 #resumeHeader {
   text-align: center;
+  font-size: 40px;
 }
 
 .resumeQual {
@@ -234,6 +240,7 @@ nav {
 .devHeading {
   text-align: center;
   margin-top: 30px;
+  font-size: 40px;
 }
 
 #divHeading {
@@ -415,6 +422,7 @@ nav {
 #contactHeading {
   text-align: center;
   margin-top: 30px;
+  font-size: 40px;
 }
 
 .contactBackground {
@@ -505,6 +513,7 @@ nav {
 #emailHeading {
   text-align: center;
   margin-top: 30px;
+  font-size: 40px;
 }
 
 .emailBackground {
