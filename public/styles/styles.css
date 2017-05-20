@@ -27,6 +27,13 @@ header {
   margin: 5px 10px 5px 0px;
   text-align: right;
 }
+/*xl view*/
+.iconsXl {
+  height: 8%;
+  width: 8%;
+  margin: 5px 10px 5px 0px;
+  text-align: right;
+}
 
 .icons:hover {
   height: 13%;
@@ -36,6 +43,11 @@ header {
 
 #links {
   text-align: right;
+}
+/*xl view*/
+#linksXl {
+  text-align: right;
+  margin-bottom: 10px;
 }
 
 
@@ -107,6 +119,16 @@ nav {
   font-family: fantasy;
 }
 
+.bracesLeft {
+  font-size: 100px;
+  text-align: right;
+}
+
+.bracesRight {
+  font-size: 100px;
+  text-align: left;
+}
+
 #homeBackground {
   background-image: url('/assets/images/stoneBrick.png');
   background-repeat: no-repeat;
@@ -118,8 +140,8 @@ nav {
 #homeDescription {
   font-size: 25px;
   font-weight: bold;
-  /*border: 5px solid black;*/
-  /*border-radius: 10px;*/
+  border: 5px solid black;
+  border-radius: 10px;
   padding: 20px;
   color: black;
 }
@@ -252,6 +274,10 @@ nav {
   text-align: center;
   /*font-family: fantasy;*/
   font-size: 25px;
+}
+
+#devHeadingMean {
+  font-size: 20px;
 }
 
 #devIconTable {
