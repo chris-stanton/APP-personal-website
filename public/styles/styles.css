@@ -118,9 +118,21 @@ nav {
 //          BIO         //
 ////////////////////////*/
 
+#bioContainer {
+
+}
+
+.bioBackground {
+  background-image: url('/assets/images/wood.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 150px 0px 150px 0px;
+  text-align: center;
+}
+
 .bioHeaders {
   text-align: center;
-  margin-top: 30px;
+  margin: 30px 0px 60px 0px;
 }
 
 #descriptionContainer {
@@ -128,7 +140,12 @@ nav {
   border: 5px solid black;
   border-radius: 10px;
   padding: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #000000;
 }
+
+
 
 
 
@@ -141,6 +158,7 @@ nav {
   /*border-radius: 10px;*/
   margin: 30px 15px 0px 30px;
   padding: 20px;
+  /*background-image: url('/assets/images/wood.jpg');*/
 }
 
 #resumeHeader {
@@ -187,6 +205,16 @@ nav {
   height: 30px;
   width: 30px;
 }
+
+.resumeEducation {
+  display: inline-block;
+  margin: 0px 25px 0px 25px;
+}
+
+
+
+
+
 
 
 
@@ -335,7 +363,6 @@ nav {
   text-align: center;
   margin-top: 30px;
   display: inline-block;
-  box-shadow: 2px 2px 2px black;
 }
 
 .imageTitle {
@@ -364,9 +391,17 @@ nav {
 
 
 
+
+
+
 /*////////////////////////
 //       CONTACT        //
 ////////////////////////*/
+
+#contactBackground {
+  background-image: url('/assets/images/stone.png');
+  background-size: 100%;
+}
 
 #contactContainer {
   margin-top: 20px;
@@ -481,4 +516,24 @@ nav {
   border: 2px solid black;
   border-radius: 10px;
   padding: 20px;
+}
+
+
+
+
+
+/*////////////////////////
+//        FOOTER        //
+////////////////////////*/
+
+#footerContainer {
+  text-align: center;
+  background-color: #363434;
+  color: white;
+  padding: 25px 0px 25px 0px;
+  margin-top: 50px;
+}
+
+#footerHeader {
+  /*margin: 100px;*/
 }
