@@ -82,6 +82,10 @@ nav {
   outline: none;
 }
 
+.homePar {
+  margin: 0px 0px 50px 0px;
+}
+
 
 
 
@@ -89,24 +93,35 @@ nav {
 //        HOME          //
 ////////////////////////*/
 
-#faceImage {
-  height: 20%;
-  width: 20%;
-  border-radius: 40px;
-}
-
-#imagePosition {
+#homeHeader {
   text-align: center;
-  margin: 30px 0px 20px 0px;
+  margin: 30px 0px 30px 0px;
 }
 
-.homeHeaders {
-  text-align: center;
-  margin-top: 30px;
+#homeName {
+  font-size: 60px;
 }
 
-.bioParagraph {
-  /*text-align: center;*/
+#homeDeveloper {
+  font-size: 30px;
+  font-family: fantasy;
+}
+
+#homeBackground {
+  background-image: url('/assets/images/stoneBrick.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 10px 0px 10px 0px;
+  padding: 125px 0px 125px 0px;
+}
+
+#homeDescription {
+  font-size: 25px;
+  font-weight: bold;
+  /*border: 5px solid black;*/
+  /*border-radius: 10px;*/
+  padding: 20px;
+  color: black;
 }
 
 
@@ -133,6 +148,7 @@ nav {
 .bioHeaders {
   text-align: center;
   margin: 30px 0px 60px 0px;
+  font-size: 40px;
 }
 
 #descriptionContainer {
@@ -161,6 +177,7 @@ nav {
 
 #resumeHeader {
   text-align: center;
+  font-size: 40px;
 }
 
 .resumeQual {
@@ -223,6 +240,7 @@ nav {
 .devHeading {
   text-align: center;
   margin-top: 30px;
+  font-size: 40px;
 }
 
 #divHeading {
@@ -404,6 +422,7 @@ nav {
 #contactHeading {
   text-align: center;
   margin-top: 30px;
+  font-size: 40px;
 }
 
 .contactBackground {
@@ -491,6 +510,18 @@ nav {
 //        EMAIL         //
 ////////////////////////*/
 
+#emailHeading {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+.emailBackground {
+  margin-top: 40px;
+  background-image: url('/assets/images/wood.png');
+  padding: 25px 0px 60px 0px;
+}
+
 #emailInputContainer {
   border: 2px solid black;
   border-radius: 10px;
@@ -519,10 +550,11 @@ nav {
 #emailDescription {
   text-align: center;
   margin: 5px 60px 0px 60px;
-  font-size: 17px;
+  font-size: 25px;
   border: 2px solid black;
   border-radius: 10px;
   padding: 20px;
+  display: inline-block;
 }
 
 
@@ -538,7 +570,7 @@ nav {
   background-color: #363434;
   color: white;
   padding: 25px 0px 25px 0px;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 #footerHeader {
