@@ -19,10 +19,7 @@
     - ``` brew services start postgresql ``` Starts DB server connection to Postico (or equivalent for MongoDB)
     - ``` npm start ``` Starts server
     - ``` npm test ``` Starts server using Nodemon
-  4. Configure / Create DB
-    - Download and install SQL DB client to aide in creating the DB
-    - Cut and paste code from database.sql file into 3rd party software from the step pervious
-  5. Server is listening on port: 5000
+  4. Server is listening on port: 5000
 
 ---
 
