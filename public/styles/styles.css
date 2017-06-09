@@ -173,7 +173,7 @@ nav {
 
 #bioTableContainer {
   text-align: center;
-  vertical-align: text-top;
+  /*vertical-align: text-top;*/
 }
 
 #bioTableHeading {
@@ -187,7 +187,7 @@ nav {
 }
 
 #bioTableBio {
-  /*vertical-align: text-top;*/
+  margin-bottom: 300px;
 }
 
 .bioTd {
