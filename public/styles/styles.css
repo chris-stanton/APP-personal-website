@@ -123,6 +123,12 @@ nav {
   font-family: fantasy;
 }
 
+.homeIntro {
+  text-align: center;
+  font-size: 15px;
+  margin: 0px 0px 30px 0px;
+}
+
 .homeIcon {
   border-top: 1px solid #afafaf;
 }
@@ -137,9 +143,12 @@ nav {
   margin: 30px 0px 0px 0px;
   padding-top: 30px;
   border-top: 1px solid #afafaf;
+  text-align: center;
 }
 
-.contactEmailImage
+.contactEmailImage {
+  text-align: center;
+}
 
 
 
