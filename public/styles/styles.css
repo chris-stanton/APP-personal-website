@@ -183,7 +183,7 @@ nav {
 }
 
 .tdHeading {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #afafaf;
 }
 
 #bioTableBio {
@@ -240,7 +240,7 @@ nav {
 .resumeHeadings {
   text-align: center;
   margin: 30px 0px 20px 0px;;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid #afafaf;
 }
 
 .qualificationsDiv {
