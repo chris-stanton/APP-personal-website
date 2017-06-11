@@ -461,12 +461,16 @@ nav {
   font-size: 40px;
 }
 
+.contactHeadings {
+  font-family: serif;
+}
+
 .contactBackground {
-  background-image: url('/assets/images/stone.png');
-  background-size: 100%;
-  background-repeat: no-repeat;
+  /*background-image: url('/assets/images/stone.png');*/
+  /*background-size: 100%;*/
+  /*background-repeat: no-repeat;*/
   margin-top: 30px;
-  padding: 40px 0px 100px 0px;
+  padding: 0px 0px 100px 0px;
 }
 
 #contactContainer {
@@ -479,11 +483,12 @@ nav {
 }
 
 #infoCard {
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 10px;
   margin-right: 15px;
   padding: 20px;
   height: 200px;
+  box-shadow: 4px 4px 4px grey;
 }
 
 #contactLinks {
@@ -491,11 +496,12 @@ nav {
 }
 
 #iconCard {
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 10px;
   margin-right: 15px;
   padding: 20px;
   height: 200px;
+  box-shadow: 4px 4px 4px grey;
 }
 
 .contactIcons {
@@ -518,11 +524,12 @@ nav {
 }
 
 #emailCard {
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 10px;
   margin-right: 15px;
   padding: 20px;
   height: 220px;
+  box-shadow: 4px 4px 4px grey;
 }
 
 #contactEmailIcon {
