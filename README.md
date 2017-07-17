@@ -7,22 +7,22 @@
 ###### Personal buisness portfolio app to help market myself, and aide in the start of a new career in Software Development
 
 #### Home View:
-<img src="./public/assets/images/screenshots/home.png" width=100%>
+<img src="./public/assets/images/screenshots/home.png" width=50%>
 
 #### Bio View:
-<img src="./public/assets/images/screenshots/bio.png" width=100%>
+<img src="./public/assets/images/screenshots/bio.png" width=50%>
 
 #### Resume View:
-<img src="./public/assets/images/screenshots/resume.png" width=100%>
+<img src="./public/assets/images/screenshots/resume.png" width=50%>
 
 #### Software Development:
-<img src="./public/assets/images/screenshots/development.png" width=100%>
+<img src="./public/assets/images/screenshots/development.png" width=50%>
 
 #### Contact View:
-<img src="./public/assets/images/screenshots/contact.png" width=100%>
+<img src="./public/assets/images/screenshots/contact.png" width=50%>
 
 #### Email Chris:
-<img src="./public/assets/images/screenshots/email.png" width=100%>
+<img src="./public/assets/images/screenshots/email.png" width=50%>
 
 
 
