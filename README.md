@@ -25,10 +25,6 @@
 <img src="./public/assets/images/screenshots/email.png" width=50%>
 
 
-
-
-
-
 ---
 
 ## Technologies Used
@@ -40,6 +36,7 @@
   6. PG - version ``` v6.1.4 ```
   7. GIT / GitHub
   8. Bootstrap - version ``` v3.3.7 ```
+  9. Heroku
 
 ---
 
