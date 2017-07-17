@@ -1,4 +1,36 @@
 
+# Personal Web App
+
+---
+
+## Description:
+###### Personal buisness portfolio app to help market myself, and aide in the start of a new career in Software Development
+
+#### Home View:
+<img src="./public/assets/images/screenshots/home.png" width=100%>
+
+#### Bio View:
+<img src="./public/assets/images/screenshots/bio.png" width=100%>
+
+#### Resume View:
+<img src="./public/assets/images/screenshots/resume.png" width=100%>
+
+#### Software Development:
+<img src="./public/assets/images/screenshots/development.png" width=100%>
+
+#### Contact View:
+<img src="./public/assets/images/screenshots/contact.png" width=100%>
+
+#### Email Chris:
+<img src="./public/assets/images/screenshots/email.png" width=100%>
+
+
+
+
+
+
+---
+
 ## Technologies Used
   1. Express.js - version ``` v4.15.2 ```
   2. Angular.js - version ``` v1.6.3 ```
@@ -9,7 +41,7 @@
   7. GIT / GitHub
   8. Bootstrap - version ``` v3.3.7 ```
 
-
+---
 
 ## Install App
   1. Download zip file
