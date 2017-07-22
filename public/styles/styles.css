@@ -607,14 +607,18 @@ nav {
 //        FOOTER        //
 ////////////////////////*/
 
-#footerContainer {
-  text-align: center;
-  background-color: #363434;
-  color: white;
-  padding: 25px 0px 25px 0px;
-  margin-top: 70px;
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
-#footerHeader {
-  /*margin: 100px;*/
+.footerContainer {
+  text-align: center;
+  background-color: #363434;
+  opacity: 0.7;
+  color: white;
+  padding: 10px 0px 0px 0px;
+  height: 40px;
 }
