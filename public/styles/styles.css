@@ -4,51 +4,34 @@
 ////////////////////////*/
 
 header {
-  height: 250px;
+  display: flex;
+  height: 220px;
   background-image: url('/assets/images/header.jpg');
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
-#nameHeading {
+.nameHeading {
   text-align: center;
   font-family: fantasy;
-  font-size: 62px;
-  margin-top: 40px;
+  text-shadow: 3px 3px 3px #ffffff;
+  font-size: 55px;
+  padding-top: 30px;
 }
 
-.headingEmail {
-  text-align: center;
+.linksContainer {
+  text-align: right;
 }
 
 .icons {
   height: 8%;
   width: 8%;
-  margin: 5px 10px 5px 0px;
-  text-align: right;
-}
-/*xl view*/
-.iconsXl {
-  height: 8%;
-  width: 8%;
-  margin: 5px 10px 5px 0px;
+  margin: 10px 10px 5px 0px;
   text-align: right;
 }
 
-.icons:hover {
-  height: 13%;
-  width: 13%;
-  margin: 0px 15px 10px 0px;
-}
 
-#links {
-  text-align: right;
-}
-/*xl view*/
-#linksXl {
-  text-align: right;
-  margin-bottom: 10px;
-}
+
 
 
 
@@ -58,26 +41,27 @@ header {
 ////////////////////////*/
 
 nav {
-  /*background-color: #a6a5a5;*/
   height: 38px;
   outline: 2px solid;
   background-image: url('/assets/images/nav.png');
 }
 
-#navContainer {
-  margin-top: -30px;
+.navContainer {
   text-align: center;
 }
 
 .nav {
   text-align: center;
-  margin-top: 10px;
 }
 
 .navButtonColor {
+  color: white;
+}
+
+.navButtonColor:hover {
   /*color: #330ee7;*/
   color: white;
-  outline: none;
+  text-decoration: none;
 }
 
 .navButtons {
