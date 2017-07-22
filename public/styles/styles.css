@@ -105,20 +105,20 @@ nav {
 //        HOME          //
 ////////////////////////*/
 
-#homeContainer {
-  margin: 0px 0px 0px 0px;
+.homeContainer {
+  margin: 0px 0px 50px 0px;
 }
 
-#homeHeader {
+.homeHeader {
   text-align: center;
   margin: 30px 0px 30px 0px;
 }
 
-#homeName {
+.homeName {
   font-size: 60px;
 }
 
-#homeDeveloper {
+.homeDeveloper {
   font-size: 30px;
   font-family: fantasy;
 }
@@ -171,7 +171,7 @@ nav {
   font-size: 40px;
 }
 
-#bioTableContainer {
+.bioTableContainer {
   text-align: center;
   /*vertical-align: text-top;*/
 }
@@ -184,10 +184,6 @@ nav {
 
 .tdHeading {
   border-bottom: 1px solid #afafaf;
-}
-
-#bioTableBio {
-  margin-bottom: 300px;
 }
 
 .bioTd {
@@ -235,6 +231,7 @@ nav {
 
 #resumeEducationContainer {
   text-align: center;
+  margin-bottom: 75px;
 }
 
 .resumeHeadings {
@@ -268,6 +265,10 @@ nav {
 /*////////////////////////
 //      DEVELOPMENT     //
 ////////////////////////*/
+
+.dpContainer {
+
+}
 
 .devHeading {
   text-align: center;
@@ -418,7 +419,7 @@ nav {
 
 #linkTableContainer {
   text-align: center;
-  margin-top: 30px;
+  margin: 30px 0px 60px 0px;
   display: inline-block;
 }
 
